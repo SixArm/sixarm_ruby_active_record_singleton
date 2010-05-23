@@ -1,0 +1,7 @@
+
+= SixArm Ruby Gem: ActiveRecord Singleton
+
+Author:: Found on the internet by Joel Parker Henderson, joelparkerhenderson@gmail.com
+Copyright:: Copyright the original author; please email me if you know who wrote this
+License:: Unknown; please email me if you know the original license
+
