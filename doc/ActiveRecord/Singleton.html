@@ -1,156 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <head>
+    <meta name="Content-Type" content="text/html; charset=utf-8" />
+<title>Module: ActiveRecord::Singleton</title>
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="../css/common.css" type="text/css" media="screen" charset="utf-8" />
 
-	<title>Module: ActiveRecord::Singleton</title>
+<script type="text/javascript" charset="utf-8">
+  relpath = '..';
+  if (relpath != '') relpath += '/';
+</script>
+<script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
 
-	<link rel="stylesheet" href="../rdoc.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="../_index.html">Index (S)</a> &raquo; 
+    <span class='title'><span class='object_link'><a href="../ActiveRecord.html" title="ActiveRecord (module)">ActiveRecord</a></span></span>
+     &raquo; 
+    <span class="title">Singleton</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
 
-	<script src="../js/jquery.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="../js/thickbox-compressed.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="../js/quicksearch.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="../js/darkfish.js" type="text/javascript"
-		charset="utf-8"></script>
+      <div id="search">
+  <a id="class_list_link" href="#">Class List</a>
+  <a id="method_list_link" href="#">Method List</a>
+  <a id ="file_list_link" href="#">File List</a>
+</div>
 
-</head>
-<body class="module">
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><h1>Module: ActiveRecord::Singleton
+  
+  
+  
+</h1>
 
-	<div id="metadata">
-		<div id="file-metadata">
-			<div id="file-list-section" class="section">
-				<h3 class="section-header">In Files</h3>
-				<div class="section-body">
-					<ul>
-					
-						<li><a href="../lib/sixarm_ruby_active_record_singleton_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-							class="thickbox" title="lib/sixarm_ruby_active_record_singleton.rb">lib/sixarm_ruby_active_record_singleton.rb</a></li>
-					
-					</ul>
-				</div>
-			</div>
+<dl class="box">
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r1 last">Defined in:</dt>
+    <dd class="r1 last">lib/sixarm_ruby_active_record_singleton.rb</dd>
+  
+</dl>
+<div class="clear"></div>
 
-			
-		</div>
-
-		<div id="class-metadata">
-
-			<!-- Parent Class -->
-			
-
-			<!-- Namespace Contents -->
-			
-			<div id="namespace-list-section" class="section">
-				<h3 class="section-header">Namespace</h3>
-				<ul class="link-list">
-					
-					<li><span class="type">MODULE</span> <a href="Singleton/ClassMethods.html">ActiveRecord::Singleton::ClassMethods</a></li>
-					
-				</ul>
-			</div>
-			
-
-			<!-- Method Quickref -->
-			
-			<div id="method-list-section" class="section">
-				<h3 class="section-header">Methods</h3>
-				<ul class="link-list">
-					
-					<li><a href="#M000000">::included</a></li>
-					
-					<li><a href="#M000001">#initialize_with_singleton</a></li>
-					
-				</ul>
-			</div>
-			
-
-			<!-- Included Modules -->
-			
-			<div id="includes-section" class="section">
-				<h3 class="section-header">Included Modules</h3>
-				<ul class="link-list">
-				
-				
-					<li><span class="include">::Singleton</span></li>
-				
-				
-				</ul>
-			</div>
-			
-		</div>
-
-		<div id="project-metadata">
-			
-			
-			<div id="fileindex-section" class="section project-section">
-				<h3 class="section-header">Files</h3>
-				<ul>
-				
-					<li class="file"><a href="../README_rdoc.html">README.rdoc</a></li>
-				
-					<li class="file"><a href="../sixarm_ruby_active_record_singleton_gemspec.html">sixarm_ruby_active_record_singleton.gemspec</a></li>
-				
-					<li class="file"><a href="../sixarm_ruby_active_record_singleton_sha512_txt.html">sixarm_ruby_active_record_singleton.sha512.txt</a></li>
-				
-				</ul>
-			</div>
-			
-
-			<div id="classindex-section" class="section project-section">
-				<h3 class="section-header">Class Index
-					<span class="search-toggle"><img src="../images/find.png"
-						height="16" width="16" alt="[+]"
-						title="show/hide quicksearch" /></span></h3>
-				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
-				<fieldset>
-					<legend>Quicksearch</legend>
-					<input type="text" name="quicksearch" value=""
-						class="quicksearch-field" />
-				</fieldset>
-				</form>
-
-				<ul class="link-list">
-				
-					<li><a href="../ActiveRecord/Singleton.html">ActiveRecord::Singleton</a></li>
-				
-					<li><a href="../ActiveRecord/Singleton/ClassMethods.html">ActiveRecord::Singleton::ClassMethods</a></li>
-				
-				</ul>
-				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
-			</div>
-
-			
-		</div>
-	</div>
-
-	<div id="documentation">
-		<h1 class="module">ActiveRecord::Singleton</h1>
-
-		<div id="description">
-			<p>
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    <p>
 Mixin to make an ActiveRecord class behave in a singleton fashion, having
 only one row in its associated table.
 </p>
 <p>
-<a href="Singleton.html">ActiveRecord::Singleton</a> does not, by its
-nature, support STI (single table inheritance).
+ActiveRecord::Singleton does not, by its nature, support STI (single table
+inheritance).
 </p>
 <p>
-A <a href="Singleton.html">Singleton</a> still has a primary key id column,
-for the following reasons:
+A Singleton still has a primary key id column, for the following reasons:
 </p>
 <ul>
-<li>the ActiveRecord finders and updaters will work untouched, and
-
+<li><p>
+the ActiveRecord finders and updaters will work untouched, and
+</p>
 </li>
-<li>so you can reference the singleton record from other classes (or if the
+<li><p>
+so you can reference the singleton record from other classes (or if the
 singleton has a has_many relationship) in the usual way.
-
+</p>
 </li>
 </ul>
 <p>
@@ -161,162 +96,242 @@ found by the query).
 You cannot call destroy on a singleton object
 </p>
 <p>
-You cannot instantiate a <a href="Singleton.html">Singleton</a> object with
-<tt>new</tt>, use <tt>instance</tt> or <tt>find</tt>
+You cannot instantiate a Singleton object with <tt>new</tt>, use
+<tt>instance</tt> or <tt>find</tt>
 </p>
 <p>
-<a href="Singleton.html">ActiveRecord::Singleton</a> is Thread safe, and
-handles concurrent access properly (if two separate processes instantiate a
-<a href="Singleton.html">Singleton</a> where a table is empty, only one row
-will be created)
+ActiveRecord::Singleton is Thread safe, and handles concurrent access
+properly (if two separate processes instantiate a Singleton where a table
+is empty, only one row will be created)
 </p>
 <h3>Example of use:</h3>
 <p>
 <em>meta data on another active record</em>
 </p>
-<pre>
-  class FocusableListItem &lt; ActiveRecord::Base
-    class Properties &lt; ActiveRecord::Base
-      inlcude ActiveRecord::Singleton
-    end
+<pre class="code">
+  <span class='kw'>class</span> <span class='const'>FocusableListItem</span> <span class='op'>&lt;</span> <span class='const'>ActiveRecord</span><span class='op'>::</span><span class='const'>Base</span>
+    <span class='kw'>class</span> <span class='const'>Properties</span> <span class='op'>&lt;</span> <span class='const'>ActiveRecord</span><span class='op'>::</span><span class='const'>Base</span>
+      <span class='id inlcude'>inlcude</span> <span class='const'>ActiveRecord</span><span class='op'>::</span><span class='const'>Singleton</span>
+    <span class='kw'>end</span>
+  
+    <span class='id acts_as_list'>acts_as_list</span>
+  
+    <span class='id after_save'>after_save</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id record'>record</span><span class='op'>|</span> <span class='comment'># new record recieves focus
+</span>      <span class='const'>Properties</span><span class='period'>.</span><span class='id instance'>instance</span><span class='period'>.</span><span class='id update_attributes'>update_attributes</span> <span class='symbol'>:has_focus_id</span> <span class='op'>=&gt;</span> <span class='id record'>record</span><span class='period'>.</span><span class='id id'>id</span>
+    <span class='kw'>end</span>
+  
+    <span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id focused'>focused</span>
+      <span class='id find'>find</span> <span class='const'>Properties</span><span class='period'>.</span><span class='id instance'>instance</span><span class='period'>.</span><span class='id has_focus_id'>has_focus_id</span>
+    <span class='kw'>end</span>
+    
+    <span class='kw'>def</span> <span class='id recieve_focus'>recieve_focus</span>
+      <span class='const'>Properties</span><span class='period'>.</span><span class='id instance'>instance</span><span class='period'>.</span><span class='id update_attributes'>update_attributes</span> <span class='symbol'>:has_focus_id</span> <span class='op'>=&gt;</span> <span class='id id'>id</span>
+    <span class='kw'>end</span>
+  <span class='kw'>end</span></pre>
 
-    acts_as_list
 
-    after_save do |record| # new record recieves focus
-      Properties.instance.update_attributes :has_focus_id =&gt; record.id
-    end
+  </div>
+</div>
+<div class="tags">
+  
+</div><h2>Defined Under Namespace</h2>
+<p class="children">
+   
+    
+      <strong class="modules">Modules:</strong> <span class='object_link'><a href="Singleton/ClassMethods.html" title="ActiveRecord::Singleton::ClassMethods (module)">ClassMethods</a></span>
+    
+   
+    
+  
+</p>
 
-    def self.focused
-      find Properties.instance.has_focus_id
-    end
 
-    def recieve_focus
-      Properties.instance.update_attributes :has_focus_id =&gt; id
-    end
-  end
-</pre>
 
-		</div>
+  
+    <h2>
+      Class Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
 
-		<!-- Constants -->
-		
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#included-class_method" title="included (class method)">+ (Object) <strong>included</strong>(base) </a>
+    
 
-		<!-- Attributes -->
-		
+    
+  </span>
+  
+  
+  
+  
+  
+  
 
-		<!-- Methods -->
-		
-		<div id="public-class-method-details" class="method-section section">
-			<h3 class="section-header">Public Class Methods</h3>
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
 
-		
-			<div id="included-method" class="method-detail ">
-				<a name="M000000"></a>
+      
+    </ul>
+  
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
 
-				<div class="method-heading">
-				
-					<span class="method-name">included</span><span
-						class="method-args">(base)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize_with_singleton-instance_method" title="#initialize_with_singleton (instance method)">- (Object) <strong>initialize_with_singleton</strong>(*args) </a>
+    
 
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
+    
+  </span>
+  
+  
+  
+  
+  
+  
 
-					
-					<div class="method-source-code"
-						id="included-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_active_record_singleton.rb, line 54</span>
-54:     <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">included</span>(<span class="ruby-identifier">base</span>)
-55:       <span class="ruby-identifier">require</span> <span class="ruby-value str">'singleton'</span>
-56:       <span class="ruby-identifier">base</span>.<span class="ruby-identifier">class_eval</span> <span class="ruby-keyword kw">do</span>
-57:         <span class="ruby-identifier">include</span> <span class="ruby-operator">::</span><span class="ruby-constant">Singleton</span>
-58:         <span class="ruby-identifier">extend</span> <span class="ruby-constant">ClassMethods</span>
-59:         <span class="ruby-identifier">alias_method_chain</span> <span class="ruby-identifier">:initialize</span>, <span class="ruby-identifier">:singleton</span>
-60:         <span class="ruby-identifier">protected</span> <span class="ruby-identifier">:destroy</span>
-61:        <span class="ruby-keyword kw">end</span>
-62:     <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-		</div>
-	
-		<div id="public-instance-method-details" class="method-section section">
-			<h3 class="section-header">Public Instance Methods</h3>
-
-		
-			<div id="initialize-with-singleton-method" class="method-detail ">
-				<a name="M000001"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">initialize_with_singleton</span><span
-						class="method-args">(*args)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p>
+  
+    <span class="summary_desc"><div class='inline'><p>
 initializing the instance finds the first (only) record, if the record does
-not exist then one is created (without validation). This happens within a
+not exist then one is created (without validation).
+</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+
+  <div id="class_method_details" class="method_details_list">
+    <h2>Class Method Details</h2>
+    
+    
+      <div class="method_details first">
+  <p class="signature first" id="included-class_method">
+  
+    + (<tt>Object</tt>) <strong>included</strong>(base) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+54
+55
+56
+57
+58
+59
+60
+61
+62</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_singleton.rb', line 54</span>
+
+<span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id included'>included</span><span class='lparen'>(</span><span class='id base'>base</span><span class='rparen'>)</span>
+  <span class='id require'>require</span> <span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>singleton</span><span class='tstring_end'>'</span></span>
+  <span class='id base'>base</span><span class='period'>.</span><span class='id class_eval'>class_eval</span> <span class='kw'>do</span>
+    <span class='id include'>include</span> <span class='op'>::</span><span class='const'>Singleton</span>
+    <span class='id extend'>extend</span> <span class='const'>ClassMethods</span>
+    <span class='id alias_method_chain'>alias_method_chain</span> <span class='symbol'>:initialize</span><span class='comma'>,</span> <span class='symbol'>:singleton</span>
+    <span class='id protected'>protected</span> <span class='symbol'>:destroy</span>
+   <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+    
+    
+      <div class="method_details first">
+  <p class="signature first" id="initialize_with_singleton-instance_method">
+  
+    - (<tt>Object</tt>) <strong>initialize_with_singleton</strong>(*args) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+initializing the instance finds the first (only) record, if the record does
+not exist then one is created (without validation).  This happens within a
 transaction with a lock to ensure that two different processes do not
 create two new singleton rows.
 </p>
-					
-
-					
-					<div class="method-source-code"
-						id="initialize-with-singleton-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_active_record_singleton.rb, line 67</span>
-67:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize_with_singleton</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">args</span>)
-68:       <span class="ruby-identifier">initialize_without_singleton</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">args</span>)
-69:       <span class="ruby-identifier">transaction</span> <span class="ruby-keyword kw">do</span>
-70:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">attributes</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">class</span>.<span class="ruby-identifier">read_singleton_attributes</span>(<span class="ruby-identifier">:lock</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword kw">true</span>)
-71:           <span class="ruby-identifier">instance_variable_set</span>(<span class="ruby-value str">&quot;@attributes&quot;</span>, <span class="ruby-identifier">attributes</span>)
-72:           <span class="ruby-identifier">instance_variable_set</span>(<span class="ruby-value str">&quot;@new_record&quot;</span>, <span class="ruby-keyword kw">false</span>)
-73:         <span class="ruby-keyword kw">else</span>
-74:           <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">save</span>(<span class="ruby-keyword kw">false</span>)
-75:         <span class="ruby-keyword kw">end</span>
-76:       <span class="ruby-keyword kw">end</span>
-77:     <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-		</div>
-	
-
-	</div>
 
 
-	<div id="rdoc-debugging-section-dump" class="debugging-section">
-	
-		<p>Disabled; run with --debug to generate this.</p>
-	
-	</div>
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
 
-	<div id="validator-badges">
-		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
-		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
-			Rdoc Generator</a> 1.1.6</small>.</p>
-	</div>
 
-</body>
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_singleton.rb', line 67</span>
+
+<span class='kw'>def</span> <span class='id initialize_with_singleton'>initialize_with_singleton</span><span class='lparen'>(</span><span class='op'>*</span><span class='id args'>args</span><span class='rparen'>)</span>
+  <span class='id initialize_without_singleton'>initialize_without_singleton</span><span class='lparen'>(</span><span class='op'>*</span><span class='id args'>args</span><span class='rparen'>)</span>
+  <span class='id transaction'>transaction</span> <span class='kw'>do</span>
+    <span class='kw'>if</span> <span class='id attributes'>attributes</span> <span class='op'>=</span> <span class='kw'>self</span><span class='period'>.</span><span class='id class'>class</span><span class='period'>.</span><span class='id read_singleton_attributes'>read_singleton_attributes</span><span class='lparen'>(</span><span class='symbol'>:lock</span> <span class='op'>=&gt;</span> <span class='kw'>true</span><span class='rparen'>)</span>
+      <span class='id instance_variable_set'>instance_variable_set</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>@attributes</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='id attributes'>attributes</span><span class='rparen'>)</span>
+      <span class='id instance_variable_set'>instance_variable_set</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>@new_record</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='kw'>false</span><span class='rparen'>)</span>
+    <span class='kw'>else</span>
+      <span class='kw'>self</span><span class='period'>.</span><span class='id save'>save</span><span class='lparen'>(</span><span class='kw'>false</span><span class='rparen'>)</span>
+    <span class='kw'>end</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+    
+    <div id="footer">
+  Generated on Mon Dec 13 17:30:48 2010 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.6.3 (ruby-1.9.2).
+</div>
+
+  </body>
 </html>
-
