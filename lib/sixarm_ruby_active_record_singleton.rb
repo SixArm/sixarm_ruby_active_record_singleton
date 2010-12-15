@@ -1,10 +1,15 @@
+# -*- encoding: utf-8 -*-
 =begin rdoc
 
-= SixArm Ruby Gem: ActiveRecord singleton object for Rails
+= SixArm Ruby Gem » ActiveRecord Singleton
 
 Author:: Found on the internet by Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright the original author; please email me if you know who wrote this
 License:: Unknown; please email me if you know the original license
+
+ActiveRecord Singleton object for Ruby On Rails.
+
+This is useful if you want to ensure there is only one occurance of a model.
 
 =end
 
