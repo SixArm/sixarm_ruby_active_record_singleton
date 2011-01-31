@@ -1,5 +1,4 @@
-
-= SixArm Ruby Gem: ActiveRecord singleton object for Rails
+= SixArm.com » Ruby » ActiveRecord singleton object for Rails
 
 Author:: Found on the internet by Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright the original author; please email me if you know who wrote this
