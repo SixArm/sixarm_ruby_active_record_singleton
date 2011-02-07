@@ -1,7 +1,7 @@
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 =begin rdoc
 
-= SixArm Ruby Gem » ActiveRecord Singleton
+= SixArm.com » Ruby » ActiveRecord singleton object for Rails
 
 Author:: Found on the internet by Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright the original author; please email me if you know who wrote this
