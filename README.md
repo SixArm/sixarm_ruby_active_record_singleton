@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> ActiveRecord singleton object for Rails
 
-* Docs: <http://sixarm.com/sixarm_ruby_active_record_singleton/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_active_record_singleton/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_active_record_singleton>
 * Repo: <http://github.com/sixarm/sixarm_ruby_active_record_singleton>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
