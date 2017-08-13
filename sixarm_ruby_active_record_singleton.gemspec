@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_active_record_singleton"
-  s.summary           = "SixArm.com » Ruby » ActiveRecord singleton"
+  s.summary           = "SixArm.com → Ruby → ActiveRecord singleton"
   s.description       = "ActiveRecord singleton class suitable for a model with a unique record"
   s.version           = "1.0.6"
 
