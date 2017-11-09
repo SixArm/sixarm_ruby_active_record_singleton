@@ -3,7 +3,7 @@
 * Doc: <http://sixarm.com/sixarm_ruby_active_record_singleton/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_active_record_singleton>
 * Repo: <http://github.com/sixarm/sixarm_ruby_active_record_singleton>
-<!--HEADER-SHUT-->
+<!--header-shut-->
 
 
 ## Introduction
@@ -17,7 +17,7 @@ For docs go to <http://sixarm.com/sixarm_ruby_active_record_singleton/doc>
 Want to help? We're happy to get pull requests.
 
 
-<!--INSTALL-OPEN-->
+<!--install-opent-->
 
 ## Install
 
@@ -39,4 +39,4 @@ To require the gem in your code:
 
     require "sixarm_ruby_active_record_singleton"
 
-<!--INSTALL-SHUT-->
+<!--install-shut-->
