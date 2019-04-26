@@ -1,0 +1,1 @@
+5d1c00753286fefe61500431db856d0c7ad09ec02227e953d8ac5b6801f0a60e2b90fc7d5a7da2b98f4891cf8c29141bb81bc44acf51f74e3f1d478e053d53ee  sixarm_ruby_active_record_singleton-1.0.6.gem
